@@ -1,0 +1,34 @@
+{
+  "ip": {
+    "type": "text",
+    "label": "OBS address IP",
+    "value": "localhost",
+    "group": "Global settings"
+  },
+  "port": {
+    "type": "number",
+    "label": "Port number:",
+    "value": 4444,
+    "step": 1,
+    "group": "Global settings"
+
+  },
+  "password": {
+    "type": "password",
+    "label": "OBS password:",
+    "value": "",
+    "group": "Global settings"
+  },
+  "CommandsForEveryone": {
+    "type": "text",
+    "label": "Commands for Everyone",
+    "value": "[]",
+    "group": "Chat Commands"
+  },
+  "CommandsForModerators": {
+    "type": "text",
+    "label": "Commands for Moderators",
+    "value": "[]",
+    "group": "Chat Commands"
+  }
+}
