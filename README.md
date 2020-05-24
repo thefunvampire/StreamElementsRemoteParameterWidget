@@ -3,7 +3,7 @@ A custom widget that works with OBS.Live and the OBS Websocket plugin to provide
 
 INSTRUCTIONS:
 
-First of all, you'll need to ensure the OBS WebSocket plugin is installed and you'll also need to add a custyom widget overlay (with this JS script and Fields data) to any scene where you want command(s) accepted by OBS; this is done by creating a new browser source, pointing the URL to this widget and making sure to check both "Shutdown source when not visible" and "Refresh browser when scene becomes active". You may experience bugs if you fail to check both of those boxes. Make sure you add the Websocket plugin IPAddress, Port and Password into this widgets "Global Settings".
+First of all, you'll need to ensure the OBS WebSocket plugin is installed and you'll also need to add a custom widget overlay (with this JS script and Fields data) to any scene where you want command(s) accepted by OBS; this is done by creating a new browser source, pointing the URL to this widget and making sure to check both "Shutdown source when not visible" and "Refresh browser when scene becomes active". You may experience bugs if you fail to check both of those boxes. Make sure you add the Websocket plugin IPAddress, Port and Password into this widgets "Global Settings".
 
 Now that you've got your widget setup in OBS we need to add some commands, you can add commands for either Everyone (all visitors) and/or Moderators only. We do this by creating a simple string in the format of something called JSON and pasting it into our widgets Command settings. 
 
