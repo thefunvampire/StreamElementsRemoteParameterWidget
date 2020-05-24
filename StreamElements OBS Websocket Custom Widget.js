@@ -65,7 +65,6 @@ function IfCommandExistsExecuteIt(commandObject, obs) {
 
 const startListener = () => {
   window.addEventListener("onEventReceived", function(obj) {
-    let event = obj.detail.event;
     let data = obj.detail.event.data;
     console.log("LISTENER LOADED!");
     if (obj.detail.listener == "message") {
